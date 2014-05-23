@@ -1,1 +1,7 @@
-<b><font size="3">Config files - dotfiles</font></b>
+<h3>Config files from $HOME</h3>
+
+Applications:
+
+- editor: vim
+- wm: awesome
+- various other dotfiles
