@@ -1,1 +1,1 @@
-<b style="font-size: 30px;">Config files - dotfiles</b>
+<b><big>Config files - dotfiles</big></b>
