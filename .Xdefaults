@@ -1,0 +1,208 @@
+! Xft settings ---------------------------------------------------------------
+
+Xft.dpi:        96
+Xft.antialias:  true
+Xft.rgba:  rgb
+Xft.hinting:    true
+Xft.hintstyle:  hintfull
+Xft.lcdfilter:  lcddefault
+
+
+! xscreensaver ---------------------------------------------------------------
+
+!font settings
+xscreensaver.Dialog.headingFont:        -windows-proggytinysz-medium-r-normal--10-80-96-96-c-60-iso8859-1
+xscreensaver.Dialog.bodyFont:           -windows-proggytinysz-medium-r-normal--10-80-96-96-c-60-iso8859-1
+xscreensaver.Dialog.buttonFont:         -windows-proggytinysz-medium-r-normal--10-80-96-96-c-60-iso8859-1
+xscreensaver.Dialog.dateFont:           -windows-proggytinysz-medium-r-normal--10-80-96-96-c-60-iso8859-1
+xscreensaver.passwd.passwdFont:         --windows-proggytinysz-medium-r-normal--10-80-96-96-c-60-iso8859-1
+!general dialog box (affects main hostname, username, password text)
+xscreensaver.Dialog.foreground:         #eeeeee
+xscreensaver.Dialog.background:         #1c1c1c
+xscreensaver.Dialog.topShadowColor:     #1c1c1e
+xscreensaver.Dialog.bottomShadowColor:  #1c1c1e
+xscreensaver.Dialog.Button.foreground:  #eeeeee
+xscreensaver.Dialog.Button.background:  #444
+!username/password input box and date text colour
+xscreensaver.Dialog.text.foreground:    #eeeeee
+xscreensaver.Dialog.text.background:    #444
+xscreensaver.Dialog.internalBorderWidth:0
+xscreensaver.Dialog.borderWidth:        1
+xscreensaver.Dialog.shadowThickness:    2
+!timeout bar (background is actually determined by Dialog.text.background)
+xscreensaver.passwd.thermometer.foreground:  #0084ff
+xscreensaver.passwd.thermometer.background:  #1c1c1c
+xscreensaver.passwd.thermometer.width:       8
+!datestamp format--see the strftime(3) manual page for details
+xscreensaver.dateFormat:    %I:%M%P %a %b %d, %Y
+
+XTerm*termName: xterm-256color
+
+URxvt*termName: rxvt-256color
+#URxvt*title: urxvt
+#URxvt*transparent: true
+#URxvt*shading: 50
+urxvt*depth: 32
+urxvt*background: [80]#000000
+#URxvt*tintColor: #000000
+#URxvt*blurRadius: 15
+URxvt*saveLines: 12000
+URxvt*cursorBlink: false
+#URxvt*cursorUnderline: true
+URxvt*underlineColor: #93d44f
+URxvt*scrollBar: false
+URxvt*scrollBar_right: true
+URxvt*scrollstyle: plain
+URxvt*scrollColor: #0a0a0a
+URxvt*borderLess:           false
+URxvt*inheritPixmap:	    false
+URxvt.perl-lib:             /usr/lib/urxvt/perl
+URxvt.perl-ext-common:      default,matcher,url-select,keyboard-select
+URxvt.urlLauncher: /usr/bin/firefox
+URxvt.url-select.launcher: /usr/bin/firefox
+URxvt.matcher.button: 1 
+URxvt.keysym.M-u:           perl:url-select:select_next
+URxvt.keysym.M-Escape:      perl:keyboard-select:activate
+URxvt.keysym.M-s:           perl:keyboard-select:search
+URxvt*keysym.Home: \033[1~
+URxvt*keysym.End: \033[4~
+
+#URxvt*font: -xos4-terminus-medium-r-normal--12-120-72-72-c-60-iso8859-2
+#URxvt*boldFont: -xos4-terminus-medium-r-normal--12-120-72-72-c-60-iso8859-2
+
+#URxvt*font:              -xos4-terminus-*-r-normal-*-12-120-72-72-c-60-iso8859-1
+#URxvt*boldFont:              -xos4-terminus-*-r-normal-*-12-120-72-72-c-60-iso8859-1
+
+URxvt*font:              -*-profont-*-*-*-*-11-*-*-*-*-*-iso8859-1
+URxvt*boldFont:              -*-profont-*-*-*-*-11-*-*-*-*-*-iso8859-1
+URxvt*italicFont:              -*-profont-*-*-*-*-11-*-*-*-*-*-iso8859-1
+
+#URxvt*font:              -artwiz-lime-medium-r-normal--10-110-75-75-m-50-iso8859-2
+#URxvt*boldFont:              -artwiz-lime-medium-r-normal--10-110-75-75-m-50-iso8859-2
+
+#URxvt*font:              -misc-ohsnap-medium-r-normal--11-79-100-100-c-60-iso8859-1
+#URxvt*boldFont:              -misc-ohsnap-medium-r-normal--11-79-100-100-c-60-iso8859-1
+
+#URxvt.font: -windows-proggytinysz-medium-r-normal--10-80-96-96-c-60-iso8859-1
+#URxvt.boldFont: -windows-proggytinysz-medium-r-normal--10-80-96-96-c-60-iso8859-1
+
+
+#URxvt.font: -misc-fixed-medium-r-normal--10-100-75-75-c-60-iso8859-1
+#URxvt.boldFont: -misc-fixed-bold-r-normal--0-0-75-75-c-0-iso8859-1
+
+#URxvt*font: -aaron-5thelement-medium-r-normal--5-40-86-86-c-30-iso8859-1
+#URxvt*boldFont: -aaron-5thelement-medium-r-normal--5-40-86-86-c-30-iso8859-1
+
+#URxvt*font:-aaron-bitocra7-medium-r-normal--7-60-75-75-c-40-iso8859-1
+#URxvt*boldFont:-aaron-bitocra7-medium-r-normal--7-60-75-75-c-40-iso8859-1
+
+#URxvt*font:              -fontforge-progsole-medium-r-normal--10-100-75-75-c-60-iso8859-1
+#URxvt*boldFont:              -fontforge-progsole-medium-r-normal--10-100-75-75-c-60-iso8859-1
+
+# terminal colors ------------------------------------------------------------
+
+URxvt*background: #151515
+URxvt*foreground: #eeeeee
+URxvt*cursorColor: #ff69b4
+
+
+# tangoesque scheme
+
+*background: #111111
+*foreground: #babdb6
+
+# Black (not tango) + DarkGrey
+*color0: #000000
+*color8: #777777
+
+# DarkRed + Red
+*color1: #ff6565
+*color9: #ff8d8d
+
+# DarkGreen + Green
+*color2: #93d44f
+*color10: #c8e7a8
+
+# DarkYellow + Yellow
+*color3: #eab93d
+*color11: #ffc123
+
+# DarkBlue + Blue
+*color4: #204a87
+*color12: #3465a4
+
+# DarkMangenta + Mangenta
+*color5: #ce5c00
+*color13: #f57900
+
+#DarkCyan + Cyan (both not tango)
+*color6: #89b6e2
+*color14: #46a4ff
+
+# LightGrey + White
+*color7: #cccccc
+*color15: #ffffff
+
+
+
+
+#### WHITE SCHEME
+#URxvt.foreground: 	#3d402b
+#URxvt.background: 	#fefffd
+#URxvt.cursorColor:  #3d402b
+#URxvt.colorIT:      #87af5f
+#URxvt.colorBD:      #a6b387
+#URxvt.colorUL:      #698286
+
+# 0: Black
+#URxvt*color0 : #141d17
+#URxvt*color8 : #000000
+
+# 1: Red
+#URxvt*color1: #cf9e80
+#URxvt*color9: #764b37
+
+# 2: Green
+#URxvt*color2 : #a6b387
+#URxvt*color10 : #7b8f55
+
+# 3. Yellow/Orange
+#URxvt*color3: #beab8a
+#URxvt*color11: #9e7f52
+
+# 4. Blue
+#URxvt*color4: #698286
+#URxvt*color12: #2a383b
+
+# 5. Magenta
+#URxvt*color5 : #cf8581
+#URxvt*color13 : #763a37
+
+# 6. Cyan
+#URxvt*color6 : #97cfb5
+#URxvt*color14 : #46765d
+
+# 7. White
+#URxvt.color7:       #c7b59f
+#URxvt.color15:      #a08768
+
+
+####MOLOKAI
+
+
+#*color0: #000000
+#*color1: #960050
+#*color2: #66aa11
+#*color3: #c47f2c
+#*color4: #30309b
+#*color5: #7e40a5
+#*color6: #3579a8
+#*color7: #9999aa
+#*color8: #303030
+#*color9: #ff0090
+#*color10: #80ff00
+#*color11: #ffba68
+#*color12: #5f5fee
+#*color13: #bb88dd
+#*color14: #4eb4fa
+#*color15: #d0d0d0
